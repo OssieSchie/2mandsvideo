@@ -1,0 +1,54 @@
+.grid1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid1-10-1{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+.navBar{
+    display: grid;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.vidContainer{
+    display: grid;
+    grid-column: 2/3;
+    background-color:rgb(250, 244, 243);
+    border-radius: 3vw;
+    border-bottom: solid rgb(221, 199, 202) 3px;
+    text-align: center;
+    padding: 2vw;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    /* border: solid rgb(52, 52, 52) 2px; */
+    border-bottom: solid rgb(173, 76, 78) 3px;
+    border-radius: 5vw;
+    margin: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+    background-color: rgb(219, 101, 101);
+}
+
+header{
+    /* border: solid black 2px; */
+    border-bottom: solid rgb(210, 181, 181) 3px;
+    border-radius: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(246, 230, 228);
+}
+
+main{
+    /* background-color:rgb(246, 230, 228); */
+    margin-top: 3vw;
+}
